@@ -98,7 +98,7 @@ folium.Marker(location=[-23.778473,-46.299892],
 m
 folium.CircleMarker(
     location=[-23.7769444,-46.2983333],
-    radius=50,
+    radius=20,
     popup='Amor',
     color='blue',
     fill=True,
