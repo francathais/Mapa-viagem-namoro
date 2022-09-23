@@ -25,18 +25,6 @@ latitude =  -23.7787869
 import folium
 import pandas as pd
 
-"""Deve-se utilizar objeto tipo Map, neste objeto é preciso colocar a localização da cidade escolhida."""
-
-mapa = folium.Map(location=[-23.7787869, -46.3053042], 
-                           zoom_start=16)
-
-mapa
-
-from google.colab import files
-uploaded = files.upload()
-
-df = pd.read_csv("Arthur.csv", sep=";", decimal=',') #Chamando pelo nome o arquivo: dataset
-df.head() #ler
 
 # Primeiro criamos o objeto m para o mapa
 m = folium.Map(location=[-23.7787869, -46.3053042], zoom_start=22)# Depois adicionamos o marcador. 
